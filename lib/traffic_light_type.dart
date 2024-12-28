@@ -7,13 +7,13 @@ enum TrafficLightType {
   double displayTime() {
     switch (this) {
       case TrafficLightType.green:
-        return 1;
+        return 3.0;
       case TrafficLightType.yellow:
-        return 1;
+        return 1.5;
       case TrafficLightType.redYellow:
-        return 1;
+        return 1.5;
       case TrafficLightType.red:
-        return 1;
+        return 3.0;
     }
   }
 

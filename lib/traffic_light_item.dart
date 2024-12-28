@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:traffic_light/traffic_light_type.dart';
 
 class TrafficLightItem extends StatelessWidget {
-  final TrafficLightType type;
 
   const TrafficLightItem({
     super.key,
-    required this.type,
+    required this.trafficLightType,
   });
+
+  final TrafficLightType trafficLightType;
+
 
   @override
   Widget build(BuildContext context) {
@@ -18,17 +20,17 @@ class TrafficLightItem extends StatelessWidget {
         children: [
           _buildCircle(
             color: Colors.green,
-            isWorking: type.isGreen(),
+            isWorking: trafficLightType.isGreen(),
           ),
           SizedBox(width: 8),
           _buildCircle(
             color: Colors.yellow,
-            isWorking: type.isYellow(),
+            isWorking: trafficLightType.isYellow(),
           ),
           SizedBox(width: 8),
           _buildCircle(
             color: Colors.red,
-            isWorking: type.isRed(),
+            isWorking: trafficLightType.isRed(),
           ),
         ],
       ),

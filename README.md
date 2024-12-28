@@ -24,3 +24,18 @@ When the button is clicked, all traffic lights will switch to synchronized opera
 text will change to "Chaos".
 Clicking the button again will return the traffic lights to their initial unsynchronized state, and
 the button text will change back to "Synchronize".
+
+https://github.com/user-attachments/assets/c24d94cd-bba5-4cde-9644-bc426acc4700
+
+### Synchronized
+<div>
+<img src="https://github.com/user-attachments/assets/c24d94cd-bba5-4cde-9644-bc426acc4700" width="150" height="300">
+<img src="https://github.com/user-attachments/assets/ebfa23cf-5c51-4cf8-9d1b-5d38f6328faf" width="150" height="300">
+<img src="https://github.com/user-attachments/assets/b5c70db9-a8c2-4bf2-a620-1903f4c1264e" width="150" height="300">
+</div>
+### Chaos
+<div>
+<img src="https://github.com/user-attachments/assets/daafe71b-cc71-4021-9378-86e70e629131" width="150" height="300">
+</div>
+
+

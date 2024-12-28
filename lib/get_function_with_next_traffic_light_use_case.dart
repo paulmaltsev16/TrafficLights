@@ -9,7 +9,7 @@ class GetFunctionWithNextTrafficLightUseCase {
     for (int i = 1; i <= Constants.trafficLightsCount; i++) {
       Future<void> newFunction(Function(TrafficLightType) callback) async {
         // Each traffic light should start randomly with a delay between 0 and 5 seconds.
-        await delay(waitRandom() * 1000);
+        await delay(getRandom() * 1000);
 
         var initialTrafficLightType = TrafficLightType.red;
 

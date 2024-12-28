@@ -1,16 +1,26 @@
-# traffic_light
+# Traffic lights
 
-A new Flutter project.
+## Summary
 
-## Getting Started
+The application will display 1,000 traffic lights. Each traffic light will operate independently,
+meaning they will not be synchronized with each other.
 
-This project is a starting point for a Flutter application.
+Each traffic light will follow this logic:
 
-A few resources to get you started if this is your first Flutter project:
+When the page is loaded, the application will display 1,000 traffic lights, all in red mode.
+Each traffic light will start functioning after a random delay of up to 5 seconds.
+The color display order is as follows:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Order Color Display Time (seconds)
+1 Red 3.0
+2 Red + Yellow 1.5
+3 Green 3.0
+4 Yellow 1.5
+After completing one cycle, it will return to section 1 (Red) and repeat in an infinite loop.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A "Synchronize" button will appear in the top bar of the screen.
+
+When the button is clicked, all traffic lights will switch to synchronized operation, and the button
+text will change to "Chaos".
+Clicking the button again will return the traffic lights to their initial unsynchronized state, and
+the button text will change back to "Synchronize".

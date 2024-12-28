@@ -73,7 +73,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: GridView.builder(
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 5,
-                    childAspectRatio: 1,
+                    childAspectRatio: 0.5,
                   ),
                   itemCount: trafficLights.length,
                   itemBuilder: (context, index) {

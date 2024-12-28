@@ -13,27 +13,24 @@ class TrafficLightItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          _buildCircle(
-            color: Colors.green,
-            isWorking: trafficLightType.isGreen(),
-          ),
-          SizedBox(width: 8),
-          _buildCircle(
-            color: Colors.yellow,
-            isWorking: trafficLightType.isYellow(),
-          ),
-          SizedBox(width: 8),
-          _buildCircle(
-            color: Colors.red,
-            isWorking: trafficLightType.isRed(),
-          ),
-        ],
-      ),
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        _buildCircle(
+          color: Colors.green,
+          isWorking: trafficLightType.isGreen(),
+        ),
+        SizedBox(width: 8),
+        _buildCircle(
+          color: Colors.yellow,
+          isWorking: trafficLightType.isYellow(),
+        ),
+        SizedBox(width: 8),
+        _buildCircle(
+          color: Colors.red,
+          isWorking: trafficLightType.isRed(),
+        ),
+      ],
     );
   }
 

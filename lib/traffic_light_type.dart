@@ -39,10 +39,16 @@ extension TrafficLightTypeExtension on TrafficLightType {
   }
 
   bool isYellow() {
-    return [TrafficLightType.yellow, TrafficLightType.redYellow].contains(this);
+    return [
+      TrafficLightType.yellow,
+      TrafficLightType.redYellow,
+    ].contains(this);
   }
 
   bool isRed() {
-    return [TrafficLightType.red, TrafficLightType.redYellow].contains(this);
+    return [
+      TrafficLightType.red,
+      TrafficLightType.redYellow,
+    ].contains(this);
   }
 }

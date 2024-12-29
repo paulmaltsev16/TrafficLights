@@ -15,8 +15,8 @@ class GetFunctionWithNextTrafficLightUseCase {
 
         while (true) {
           callback(initialTrafficLightType);
-          initialTrafficLightType = initialTrafficLightType.next();
           await delay((initialTrafficLightType.displayTime() * 1000.0).toInt());
+          initialTrafficLightType = initialTrafficLightType.next();
         }
       }
 

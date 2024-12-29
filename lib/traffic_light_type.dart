@@ -22,11 +22,11 @@ enum TrafficLightType {
       case TrafficLightType.green:
         return TrafficLightType.yellow;
       case TrafficLightType.yellow:
-        return TrafficLightType.redYellow;
-      case TrafficLightType.redYellow:
         return TrafficLightType.red;
-      case TrafficLightType.red:
+      case TrafficLightType.redYellow:
         return TrafficLightType.green;
+      case TrafficLightType.red:
+        return TrafficLightType.redYellow;
     }
   }
 }

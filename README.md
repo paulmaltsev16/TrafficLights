@@ -27,14 +27,12 @@ the button text will change back to "Synchronize".
 
 ### Synchronized
 <div style="display: flex; justify-content: center;">
-<img src="https://github.com/user-attachments/assets/c24d94cd-bba5-4cde-9644-bc426acc4700" width="150" height="300">
-<img src="https://github.com/user-attachments/assets/ebfa23cf-5c51-4cf8-9d1b-5d38f6328faf" width="150" height="300">
-<img src="https://github.com/user-attachments/assets/b5c70db9-a8c2-4bf2-a620-1903f4c1264e" width="150" height="300">
+<img src="https://github.com/user-attachments/assets/6249f77b-d9c1-40bb-935a-9b2c51cfb374" width="150" height="300">
+<img src="https://github.com/user-attachments/assets/87421875-13f0-4247-b82d-c3b4dbf4b9cd" width="150" height="300">
+<img src="https://github.com/user-attachments/assets/6db18138-0b0e-4527-bb72-cbd0a9f7b4e1" width="150" height="300">
 </div>
 
 ### Chaos
 <div style="display: flex; justify-content: center;">
-<img src="https://github.com/user-attachments/assets/daafe71b-cc71-4021-9378-86e70e629131" width="150" height="300">
+<img src="https://github.com/user-attachments/assets/411bf907-c071-4e81-84fb-ace9ee7d8b10" width="150" height="300">
 </div>
-
-
